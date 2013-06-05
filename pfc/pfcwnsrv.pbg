@@ -1,0 +1,20 @@
+Save Format v3.0(19990112)
+@begin Libraries
+ "pfc\\pfcwnsrv.pbl" "";
+@end;
+@begin Objects
+ "pfc\\pfc_n_cst_resizeattrib.sru" "pfc\\pfcwnsrv.pbl";
+ "pfc\\pfc_n_cst_winsrv_statusbar.sru" "pfc\\pfcwnsrv.pbl";
+ "pfc\\d_toolbars.srd" "pfc\\pfcwnsrv.pbl";
+ "pfc\\pfc_w_toolbars.srw" "pfc\\pfcwnsrv.pbl";
+ "pfc\\pfc_n_cst_resize.sru" "pfc\\pfcwnsrv.pbl";
+ "pfc\\pfc_w_statusbar.srw" "pfc\\pfcwnsrv.pbl";
+ "pfc\\pfc_m_master.srm" "pfc\\pfcwnsrv.pbl";
+ "pfc\\pfc_n_cst_menu.sru" "pfc\\pfcwnsrv.pbl";
+ "pfc\\pfc_n_cst_winsrv.sru" "pfc\\pfcwnsrv.pbl";
+ "pfc\\pfc_n_cst_winsrv_sheetmanagerattrib.sru" "pfc\\pfcwnsrv.pbl";
+ "pfc\\pfc_n_cst_winsrv_sheetmanager.sru" "pfc\\pfcwnsrv.pbl";
+ "pfc\\pfc_n_cst_winsrv_statusbarattrib.sru" "pfc\\pfcwnsrv.pbl";
+ "pfc\\pfc_n_cst_toolbarattrib.sru" "pfc\\pfcwnsrv.pbl";
+ "pfc\\pfc_n_cst_winsrv_preference.sru" "pfc\\pfcwnsrv.pbl";
+@end;
