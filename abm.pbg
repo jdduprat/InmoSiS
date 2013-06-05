@@ -1,0 +1,24 @@
+Save Format v3.0(19990112)
+@begin Libraries
+ "abm.pbl" "";
+@end;
+@begin Objects
+ "s_abm.srs" "abm.pbl";
+ "d_cliente_detalle.srd" "abm.pbl";
+ "d_tipos_inmuebles.srd" "abm.pbl";
+ "w_cliente_detalle.srw" "abm.pbl";
+ "d_inmueble_detalle.srd" "abm.pbl";
+ "w_inmueble_detalle.srw" "abm.pbl";
+ "d_localidades.srd" "abm.pbl";
+ "d_provincias.srd" "abm.pbl";
+ "d_tipos_movimientos.srd" "abm.pbl";
+ "w_abm_inmuebles.srw" "abm.pbl";
+ "w_abm_tipomovimiento.srw" "abm.pbl";
+ "d_departamentos.srd" "abm.pbl";
+ "d_inmuebles.srd" "abm.pbl";
+ "w_abm_clientes.srw" "abm.pbl";
+ "w_abm_valores.srw" "abm.pbl";
+ "d_valores.srd" "abm.pbl";
+ "d_clientes.srd" "abm.pbl";
+ "s_cliente.srs" "abm.pbl";
+@end;
