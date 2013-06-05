@@ -1,0 +1,14 @@
+Save Format v3.0(19990112)
+@begin Libraries
+ "sisgestion.pbl" "";
+@end;
+@begin Objects
+ "p_sisgestion_webform.srj" "sisgestion.pbl";
+ "n_cst_sismanager.sru" "sisgestion.pbl";
+ "p_sisgestion_exe.srj" "sisgestion.pbl";
+ "f_fecha_servidor.srf" "sisgestion.pbl";
+ "m_menucaja.srm" "sisgestion.pbl";
+ "w_menucaja.srw" "sisgestion.pbl";
+ "m_menuwindows.srm" "sisgestion.pbl";
+ "sisgestion.sra" "sisgestion.pbl";
+@end;
