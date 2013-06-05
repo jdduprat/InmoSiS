@@ -1,0 +1,9 @@
+HA$PBExportHeader$s_movimiento.srs
+global type s_movimiento from structure
+	string		letra
+	long		serie
+	long		numero
+	decimal		total
+	integer		ti_aplica_caja
+end type
+
