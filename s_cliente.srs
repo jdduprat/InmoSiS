@@ -1,0 +1,5 @@
+HA$PBExportHeader$s_cliente.srs
+global type s_cliente from structure
+	long		id
+end type
+

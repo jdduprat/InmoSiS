@@ -1,0 +1,5 @@
+HA$PBExportHeader$s_abm.srs
+global type s_abm from structure
+	long		id
+end type
+
