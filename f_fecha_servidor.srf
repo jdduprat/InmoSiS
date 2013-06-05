@@ -1,0 +1,26 @@
+HA$PBExportHeader$f_fecha_servidor.srf
+global type f_fecha_servidor from function_object
+end type
+
+forward prototypes
+global function datetime f_fecha_servidor ()
+end prototypes
+
+global function datetime f_fecha_servidor ();/////////////////////////////////////////
+// Name: f_fecha_servidor
+// ReturnType : DateTime
+////////////////////////////////////////// 
+
+datetime ldt_Fecha
+
+SetNull(ldt_Fecha)
+
+SELECT now()
+INTO :ldt_fecha
+FROM empresas
+WHERE sn_activa = 'S'
+; 
+
+RETURN ldt_Fecha
+end function
+
