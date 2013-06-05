@@ -1,0 +1,31 @@
+HA$PBExportHeader$d_dwproperty_srvcal.srd
+$PBExportComments$%SPANISH% PFC DataWindow Property - calendar
+release 10;
+datawindow ( units=0 timer_interval=0 color=80263328 processing=0 print.documentname=""  print.orientation=0 print.margin.left=107 print.margin.right=107 print.margin.top=97 print.margin.bottom=97 print.paper.size=0 print.paper.source=0 selected.mouse=no)
+header(height=56 color="536870912" )
+summary(height=4 color="536870912" )
+footer(height=0 color="536870912" )
+detail(height=72 color="536870912" )
+table(column=(type=char(1) updatewhereclause=no initial="N" name=register dbname="register" 
+ values="	Y/	N/"  )
+column=(type=char(40) updatewhereclause=no name=columnname dbname="columnname"  )
+column=(type=number updatewhereclause=no name=style dbname="style" 
+ values="NINGUNO	1/DDLB	2/DDLB  WArrow	3/"  )
+)
+text(name=columnname_t visible="1" band=header font.charset="0" font.face="MS Sans Serif" font.family="2" font.height="-8" font.pitch="2" font.weight="400" background.mode="1" background.color="536870912" color="33554432" alignment="2" border="0" x="9" y="0" height="52" width="823" text="Columna" )
+text(name=t_1 visible="1" band=header font.charset="0" font.face="MS Sans Serif" font.family="2" font.height="-8" font.pitch="2" font.weight="400" background.mode="2" background.color="80263328" color="33554432" alignment="2" border="0" x="681" y="0" height="52" width="425" text="Registro" )
+text(name=style_t visible="1" band=header font.charset="0" font.face="MS Sans Serif" font.family="2" font.height="-8" font.pitch="2" font.weight="400" background.mode="1" background.color="536870912" color="33554432" alignment="2" border="0" x="1074" y="0" height="52" width="608" text="Estilo" )
+column(name=columnname visible="1" band=detail id=2 x="9" y="4" height="60" width="795" color="33554432" border="0" alignment="0" format="[general]" edit.autohscroll=yes edit.autoselect=yes edit.autovscroll=no edit.case=any edit.codetable=no edit.displayonly=yes edit.hscrollbar=no edit.imemode=0 edit.limit=0 edit.password=no edit.vscrollbar=no edit.validatecode=no edit.nilisnull=no edit.required=no criteria.required=no criteria.override_edit=no crosstab.repeat=no background.mode="2" background.color="80263328" font.charset="0" font.face="MS Sans Serif" font.family="2" font.height="-8" font.pitch="2" font.weight="400" tabsequence=20 )
+column(name=register visible="1" band=detail id=1 x="859" y="4" height="60" width="64" color="33554432" border="0" alignment="0" format="[general]" checkbox.lefttext=no checkbox.scale=no checkbox.threed=yes checkbox.text="" checkbox.on="Y" checkbox.off="N" criteria.required=no criteria.override_edit=no crosstab.repeat=no background.mode="2" background.color="67108864" font.charset="0" font.face="MS Sans Serif" font.family="2" font.height="-8" font.pitch="2" font.weight="400" tabsequence=10 )
+column(name=style visible="1" band=detail id=3 x="1074" y="4" height="56" width="608" color="33554432" border="5" alignment="0" format="[general]" ddlb.allowedit=no ddlb.autohscroll=no ddlb.imemode=0 ddlb.limit=0 ddlb.showlist=no ddlb.sorted=no ddlb.useasborder=yes ddlb.vscrollbar=no ddlb.nilisnull=no ddlb.required=no criteria.required=no criteria.override_edit=no crosstab.repeat=no background.mode="2" background.color="1090519039" font.charset="0" font.face="MS Sans Serif" font.family="2" font.height="-8" font.pitch="2" font.weight="400" tabsequence=30 )
+htmltable(border="1" )
+htmlgen(clientComputedFields="1" clientEvents="1" clientFormatting="0" clientScriptable="0" clientValidation="1" generateJavaScript="1" netscapeLayers="0" )
+xhtmlgen() cssgen()
+xmlgen()
+xsltgen()
+jsgen()
+export.xml(metadatatype=0 savemetadata=0 )
+import.xml()
+export.pdf(method=0)
+export.xhtml()
+data() 
