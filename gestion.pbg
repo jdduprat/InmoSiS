@@ -1,0 +1,24 @@
+Save Format v3.0(19990112)
+@begin Libraries
+ "gestion.pbl" "";
+@end;
+@begin Objects
+ "d_ingreso_egreso_caja.srd" "gestion.pbl";
+ "w_ingreso_egreso_caja.srw" "gestion.pbl";
+ "w_cobro.srw" "gestion.pbl";
+ "d_recibo_cabeza.srd" "gestion.pbl";
+ "uo_dwc_localidades.sru" "gestion.pbl";
+ "d_movimientos_crostab.srd" "gestion.pbl";
+ "d_recibo_detalle.srd" "gestion.pbl";
+ "d_consulta_recibos.srd" "gestion.pbl";
+ "d_consulta_movimientos.srd" "gestion.pbl";
+ "w_consulta_movimientos.srw" "gestion.pbl";
+ "d_consulta_contratos.srd" "gestion.pbl";
+ "d_contrato.srd" "gestion.pbl";
+ "s_movimiento.srs" "gestion.pbl";
+ "d_cuotas.srd" "gestion.pbl";
+ "w_consultas.srw" "gestion.pbl";
+ "w_contrato.srw" "gestion.pbl";
+ "d_cobro.srd" "gestion.pbl";
+ "w_recibo.srw" "gestion.pbl";
+@end;
